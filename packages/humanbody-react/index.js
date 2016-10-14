@@ -4,21 +4,9 @@ import React from 'react';
 
 import createHumanBody from '@ncigdc/humanbody';
 
-type TProps = {|
-  caseCountKey?: string,
-  clickHandler?: (e: any) => void,
-  data?: mixed,
-  fileCountKey?: string,
-  height?: number,
-  labelSize?: string,
-  offsetLeft?: number,
-  offsetTop?: number,
-  primarySiteKey?: string,
-  selector?: string,
-  width?: number,
-|};
+import type { TConfig } from '@ncigdc/humanbody';
 
-const Humanbody = (props: TProps) => (
+const Humanbody = (props: TConfig) => (
   <div>{createHumanBody(props)}</div>
 );
 
