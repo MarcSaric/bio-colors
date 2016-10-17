@@ -13,7 +13,7 @@
   },
   "main": "index.js",
   "dependencies": {
-    "@ncigdc/humanbody-react": "^0.0.1"
+    "@ncigdc/bio-colors": "0.1.0"
   },
   "peerDependencies": {
     "react": "^15.0.0",

@@ -1,0 +1,19 @@
+{
+  "name": "@ncigdc/bio-colors",
+  "version": "0.1.0",
+  "description": "Standard Colors for Terms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nci-gdc/bio-colors.git"
+  },
+  "author": "OICR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nci-gdc/bio-colors/issues"
+  },
+  "homepage": "https://github.com/nci-gdc/bio-colors#readme"
+}
